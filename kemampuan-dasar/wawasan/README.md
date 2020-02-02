@@ -132,8 +132,17 @@ SCRUM adalah kerangka proses untuk pengelolaan pekerjaan yang kompleks, dengan i
    - Openness
    - Respect
 
-## 6. Xtreme Programming
+## 6. Extreme Programming (XP)
+Metodologi SD yang ditujukan untuk meningkatkan kualitas perangkat lunak dan responsif terhadap perubahan kebutuhan client. Jadi ketika ada perubahan baru dari client, metode ini langsung bisa menyesuaikan dengan kebutuhan client yang baru tersebut.
+
    ### A. Tentang XP
-   ### B. Konsep
-   ### C. Praktik
-   ### D. Aspek
+   Metodologi ini memerikan langkah yang terbaik dengan tingkat ektrem. Untuk mempersingkat waktu pengembangan biasanya beberapa tugas dikembangkan secara paralel. XP membawa konsep ini ke ranah yang ekstrem dimana validasi yang dilakukan terhadap sistem hingga kebagian kecil sekalipun. dengan tingkat disiplin yang tinggi juga metode ini dapat berjalan dengan baik.
+   
+   Konsep ini akan menghasilkan perangkat lunak yang memiliki kualitas tinggi secara lebih produktif.
+
+   ### B. Practices
+   - Fine-scale feedback
+   - Continious process
+   - Shared understanding
+   - Programmer welfare
+   
