@@ -31,20 +31,74 @@ Data yang mampu diolah dan mampu berubah bentuk
 - Etika.
    Bijak dalam penggunaan IT System
 ## 2. Computer Science and Informatics
+_Terminologi_
    ### A. Computer Science
-   ### B. Informatics
+   Ilmu yang mempelajari tentang eksperimen dan teknik yang memiliki basis dalam penggunaan komputer, serta memahami dan mempelajari tentang proses algoritma
+   ### B. Informatics 
+   Cabang dari _information engineering_ melibatkan praktik dari pemrosesan informasi dan rekayasa informasi, seperti melakukan komputasi, termasuk studi dampak sosial dari penggunaannya
+
 ## 3. Software Development
+Adalah sebuah proses pengembangan perangkat lunak dengan cara pembuatan kerangka kerja yang akan digunakan untuk penyusunan, perencanaan, dan pengendalian proses pengembangan sistem informasi. 
+
    ### A. Metodologi
+Sangat banyak metodologi pengembangan software, jika ingin melakukan pengembangan, harus menggunakan metodologi yang cocok dengan sistem yang akan kita buat.
+
+Tahapan umum Software dev :
+- Analisa masalah
+- Riset 
+- Pengumpulan kebutuhan untuk tujuan solusi bisnis
+- Merancang desain sistem 
+- Implementasi (coding)
+- Testing sistem
+- Deployment
+- Pemeliharaan
+
    ### B. Aktifitas Software Dev
-   ### C. Sub Bab
-## 4. Agile Software Development
-   ### A. Tentang Agile Software Dev
-   ### B. The Manifesto for Agile Software Development
-   ### C. Gambaran
-   ### D. Filsafat
-   ### E. Metode
-   ### F. Exp dan Adopsi
-   ### G. Manajemen
+- Identifikasi kebutuhan
+- Membuat rencana
+- Merancang desain
+- Implementasi, tester, mendokumentasi
+- Deployment dan pemeliharaan
+
+## 4. Agile Software Development (Agile SD)
+Seperti Software Dev di Bab 3, namun disini lebih spesifik tentang Software Dev yang menyarankan untuk perencanaan adaptif, pengembangan evolusi, early delivery, improvement yang terus menerus, serta fleksibel terhadap perubahan. metode ini sangat mendukung berbagai SDLC (software dev. life cycle)
+   ### A. The Manifesto for Agile Software Development
+   Agile SD Values 
+   - Individuals and Interaction
+   - Working Software
+   - Customer Collaboration
+   - Respondign change
+   
+   Agile SD Principle. Terdapat 12 prinsip dalam Agile SD 
+   - Customer satisfaction by early and continuous delivery of valuable software.
+   - Welcome changing requirements, even in late development.
+   - Deliver working software frequently (weeks rather than months)
+   - Close, daily cooperation between business people and developers
+   - Projects are built around motivated individuals, who should be trusted
+   - Face-to-face conversation is the best form of communication (co-location)
+   - Working software is the primary measure of progress
+   - Sustainable development, able to maintain a constant pace
+   - Continuous attention to technical excellence and good design
+   - Simplicity—the art of maximizing the amount of work not done—is essential
+   - Best architectures, requirements, and designs emerge from self-organizing teams
+   - Regularly, the team reflects on how to become more effective, and adjusts accordingly
+   
+   ### B. Overview
+   - Iterative, incremental and evolutionary
+   - Efficient and face-to-face communication
+   - Very short feedback loop and adaptation cycle
+   - Quality focus
+
+   ### C. Exp dan Adopsi
+   - Measuring Agility
+      - Internal assessments
+      - Public surveys
+   - Common Agule SD Pitfalls
+      - Lack of overall product design and sponsor support
+      - Adding stories to an iteration in progress
+      - Insufficient training
+      - Teams are not focused
+      
 ## 5. Scrum
    ### A. Tentang Scrum
    ### B. Peran
