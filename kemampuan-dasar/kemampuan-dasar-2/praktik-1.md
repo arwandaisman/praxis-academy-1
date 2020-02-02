@@ -1,2 +1,3 @@
-praxis-academy
-#halo semua
+#Kemampuan Dasar 1
+##Geting Sarted with github
+
