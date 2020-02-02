@@ -99,15 +99,39 @@ Seperti Software Dev di Bab 3, namun disini lebih spesifik tentang Software Dev 
       - Insufficient training
       - Teams are not focused
       
-## 5. Scrum
-   ### A. Tentang Scrum
-   ### B. Peran
-   ### C. Alur 
-   ### D. Artifacts
-   ### E. Limitasi
-   ### F. Implementasi perangkat
-   ### G. Scrum values
-   ### F. Adaptasi
+## 5. SCRUM
+SCRUM adalah kerangka proses untuk pengelolaan pekerjaan yang kompleks, dengan inisialisasi awal pada sofware dev. Konsep ini dirancang untuk sebuah tim yang memecah pekerjaan menjadi suatu bagian yang mampu terselesaikan dalam timeboxed (waktu yang terbatas). Selalu memperhatikan proses yang telah dilaksanakan. 
+> Track the progress and re-plan.
+
+ ### A. Peran
+   - Product Owner
+   - Dev Team
+   - SCRUM master
+   
+ ### B. Alur 
+   - Sprint
+   - Sprint planning
+   - Daily SCRUM
+      - main Question: What did i completed?; What do i plan to complete?; Do i see any impediment(=halangan)
+   - Sprint review
+   - Sprint retrospective
+   - Backlog refinement
+   - Cancelling a sprint
+
+ ### C. Limitasi
+ Keuntungan dari SCRUM bisa saja sulit atau terhalang ketika:
+  - Teams whose members are geographically dispersed or part-time
+  - Teams whose members have very specialized skills
+  - Products with many external dependencies
+  - Products that are mature or legacy or with regulated quality control (sistem warisan)
+  
+ ### D. Scrum values
+   - Commitment
+   - Courage
+   - Focus
+   - Openness
+   - Respect
+
 ## 6. Xtreme Programming
    ### A. Tentang XP
    ### B. Konsep
