@@ -1,5 +1,5 @@
 # Kemampuan Dasar 1
-## Geting Sarted with Github
+## Getting Started with Github
 
 Pengenalan langkah awal dimulai dari 
   1. Pembuatan repositori di lokal
