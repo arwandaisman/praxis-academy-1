@@ -10,6 +10,7 @@ Pengenalan langkah awal dimulai dari
   5. Memperbaharui file yang sudah di push
   6. Melakukan rebase
 
+![](/praxis-academy/img/pr1-a.png)
 ![](https://github.com/dummytarget/praxis-academy/blob/master/img/pr1-a.png)
 
 ![](https://github.com/dummytarget/praxis-academy/blob/master/img/pr1-b.png)
