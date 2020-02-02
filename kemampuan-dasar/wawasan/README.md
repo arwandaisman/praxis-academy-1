@@ -1,4 +1,4 @@
-#Memahami Ruang Lingkup Pengembangan Software
+# Memahami Ruang Lingkup Pengembangan Software
 Sub bahasan
 1. Information Technology
 2. Computer Science and Informatics
