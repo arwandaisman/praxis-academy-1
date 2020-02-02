@@ -1,5 +1,14 @@
 # Kemampuan Dasar 1
-## Geting Sarted with github
+## Geting Sarted with Github
+![GitHub Logo](/images/logo.png)
+
+Pengenalan langkah awal dimulai dari 
+  1. Pembuatan repositori di lokal
+  2. Melakukan push
+  3. Melakukan cloning repo dari github
+  4. Melakukan perubahan terhadap file yang sudah di push
+  5. Memperbaharui file yang sudah di push
+  6. Melakukan rebase
 
 ![](https://github.com/dummytarget/praxis-academy/blob/master/img/pr1-a.png)
 
