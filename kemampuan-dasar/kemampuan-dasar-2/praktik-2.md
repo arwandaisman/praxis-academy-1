@@ -12,7 +12,7 @@ Beberapa yang akan dipelajari pada Team Collaboration antara lain
 8. Documenting 
 
 ### 1. Adding Team Members
-Pertama, buatlah dahulau Company dalam Github kita
+Pertama, buatlah dahulu Company dalam Github kita
 ![](https://github.com/dummytarget/praxis-academy/blob/master/img/pr2-a.png)
 
 ![](https://github.com/dummytarget/praxis-academy/blob/master/img/pr2-b.png)
