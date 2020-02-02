@@ -16,19 +16,19 @@ Konsep ini biasanya digunakan pada Operasi Bisnis, untuk perusahaan besar maupun
    ### B. Pemrosesan Data
 - Data Storage (penyimpanan data)
    - Database
-- Data Retrieval (penerimaan data)
+- Data Retrieval (penerimaan data).
 Data Retrival memiliki model basis data relasional, yang memperkenalkan Structured Query Language (SQL)
-- Data Transmission 
+- Data Transmission .
 Memiliki 3 aspek utama yaitu Transmisi, Propagation, dan Reception, yang bisa dikategorikan sebagai Broadcasting, yang dimana informasi dikirim melalui unidirectionally downstream / telekomunikasi dengan bidirectional upstream dan downstream channels
-- Data Manipulation
+- Data Manipulation.
 Data yang mampu diolah dan mampu berubah bentuk
 
    ### C. Sudut Pandang/Ruang Lingkup
-   - Akademik
+- Akademik.
    Mempersiapkan seluruh civitas akademika untuk mengenali teknologi komputer yang nantinya akan digunakan di bidang bisnis, pemerintahan, kesehatam, sekolah, dan organisasi. Setidaknya memiliki skill dasar untuk instalisasi, customizing, dan pememeliharaan
-   - Komersial dan Pegawai
+- Komersial dan Pegawai.
    banyak perusahaan saat ini memiliki Departemen IT untuk melakukan pemeliharaan dan memanajemen IT System mereka
-   - Etika
+- Etika.
    Bijak dalam penggunaan IT System
 ## 2. Computer Science and Informatics
    ### A. Computer Science
