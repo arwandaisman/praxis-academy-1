@@ -1,0 +1,10 @@
+1. ls          : untuk melihat file dan folder dalam direktori
+2. mkdir       : untuk membuat folder baru
+3. reboot       : untuk melakukan restart
+4. chmod        : untuk mengubah permission pada suatu file atau folder
+5. clean        : untuk membersihkan terminal
+6. apt-get install  <package name>  : untuk menginstal package(/software)
+7. cd           : untuk masuk pada direktori tertentu
+8. cat <file directory>      : untuk melihat isi dari suatu folder
+9. rm           : untuk menghapus folder maupun file
+10. whoami      : melihat user siapa yang satt ini login

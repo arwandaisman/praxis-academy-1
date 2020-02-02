@@ -1,0 +1,12 @@
+uname -a
+Linux phantom 5.0.0-37-generic #40~18.04.1-Ubuntu SMP Thu Nov 14 12:06:39 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+Linux               :Kernel name
+phantom             :hostname
+5.0.0-37-generic    :Kernel Release
+#40~18.04.1-Ubuntu SMP Thu Nov 14 12:06:39 UTC 2019     :sebanyak 40 kali dikomplikasi, dan tanggal terkahir dikomplikasi tertera
+x86_64              : 1. Machine Architecture
+                      2. Processor Architecture
+                      3. OS Architecture
+GNU/Linux           : OS
+
