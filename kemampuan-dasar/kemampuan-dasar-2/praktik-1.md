@@ -59,9 +59,9 @@ Melakukan perintah rebase yang digunakan untuk menyunting kembali apakah comit y
 Jika kita melakuka rebase akan ada beberapa perintah seperti dibawah ini
 
 __Commands:__
-p, pick = use commit 
-r, reword = use commit, but edit the commit message 
-e, edit = use commit, but stop for amending 
-s, squash = use commit, but meld into previous commit 
-f, fixup = like "squash", but discard this commit's log message 
-x, exec = run command (the rest of the line) using shell 
+- p, pick = use commit 
+- r, reword = use commit, but edit the commit message 
+- e, edit = use commit, but stop for amending 
+- s, squash = use commit, but meld into previous commit 
+- f, fixup = like "squash", but discard this commit's log message 
+- x, exec = run command (the rest of the line) using shell 
