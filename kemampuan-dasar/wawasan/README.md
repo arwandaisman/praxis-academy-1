@@ -23,7 +23,7 @@ Memiliki 3 aspek utama yaitu Transmisi, Propagation, dan Reception, yang bisa di
 - Data Manipulation.
 Data yang mampu diolah dan mampu berubah bentuk
 
-   ### C. Sudut Pandang/Ruang Lingkup
+### C. Sudut Pandang/Ruang Lingkup
 - Akademik.
    Mempersiapkan seluruh civitas akademika untuk mengenali teknologi komputer yang nantinya akan digunakan di bidang bisnis, pemerintahan, kesehatam, sekolah, dan organisasi. Setidaknya memiliki skill dasar untuk instalisasi, customizing, dan pememeliharaan
 - Komersial dan Pegawai.
@@ -40,7 +40,7 @@ _Terminologi_
 ## 3. Software Development
 Adalah sebuah proses pengembangan perangkat lunak dengan cara pembuatan kerangka kerja yang akan digunakan untuk penyusunan, perencanaan, dan pengendalian proses pengembangan sistem informasi. 
 
-   ### A. Metodologi
+### A. Metodologi
 Sangat banyak metodologi pengembangan software, jika ingin melakukan pengembangan, harus menggunakan metodologi yang cocok dengan sistem yang akan kita buat.
 
 Tahapan umum Software dev :
@@ -53,7 +53,7 @@ Tahapan umum Software dev :
 - Deployment
 - Pemeliharaan
 
-   ### B. Aktifitas Software Dev
+### B. Aktifitas Software Dev
 - Identifikasi kebutuhan
 - Membuat rencana
 - Merancang desain
