@@ -1,5 +1,5 @@
 def partition(lst, low, high):
-    i = low - 1
+    i = low - 1 
     pivot = lst[high]
     for j in range(low, high):
         if lst[j] <= pivot:
