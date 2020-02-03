@@ -18,11 +18,11 @@ package yang sudah terinstall akan otomatis terlihat
 ## Instalasi Code Editor Ubuntu (Visual Studio Code)
 ### A 
 1. Buka ubuntu software dan ketik, Visual Studio Code maka akan muncul software code editor yang akan kita install
-![](https://github.com/dummytarget/praxis-academy/blob/master/img/msatu/hsatu/01.png)
+![](https://github.com/dummytarget/praxis-academy/blob/master/img/m-1/h-1/01.png)
 2. Pilih, lalu install, tunggu hingga selesai
 
 ### B 
-![](https://github.com/dummytarget/praxis-academy/blob/master/img/msatu/hsatu/02.png)
+![](https://github.com/dummytarget/praxis-academy/blob/master/img/m-1/h-1/02.png)
 1. Atau masuk ke web resminya [VSC](https://code.visualstudio.com/) dan download .deb installation
 2. Jalankan instalasi .deb, dan tunggu hingga selesai
 
@@ -33,4 +33,4 @@ package yang sudah terinstall akan otomatis terlihat
 2. Karena ubuntu sudah terintsal pyhton maka ketikan `pyhton get-pip.py` untuk melakukan instalasi pip, lalu tunggu proses hingga selesai.
 
 3. Ketik `pip` pada terminal, jika instalasi berhasil maka _manual book_ dari pip akan muncul pada terminal
-![](https://github.com/dummytarget/praxis-academy/blob/master/img/msatu/hsatu/03.png)
+![](https://github.com/dummytarget/praxis-academy/blob/master/img/m-1/h-1/03.png)
