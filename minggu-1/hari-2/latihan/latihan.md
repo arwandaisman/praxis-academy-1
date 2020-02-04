@@ -13,7 +13,7 @@ Beberapa jenis tipe data:
 - Primitive: integers; float; string; boolean
 - Non-Primitive: arrays; list; tuples; dictionary; sets; files
 
-### Beberapa cheat Sheets (Primitive)
+### Pengolahan Data Primitive
 - `+` untuk menggabungkan string `x + y`
   ```
   x = 'Halo '
@@ -78,24 +78,28 @@ Beberapa jenis tipe data:
 -  untuk mengubah tipe data gunakan fungsi `int(), float(), & str()`
 
 ### Non-Primitive Data Structure
-1. Array. Mendeklarasikan array di Python sangat mudah
+1. Array
+    ```
+    #A
+    import array as arr #lakukan import array
+    a = arr.array("I",[1,2,3])
+    print(a)
+    
+    # output 
+    # array("I",[1,2,3])
+
+2. List 
 ```
-#A
-impoort array as arr
-a = arr.array("I",[1,2,3])
-
-atau
-#B
-a = [1,2,3]
-
-# output A
-# array("I",[1,2,3])
-
-# B
-# [1,2,3]
-```
-
-list.append(x) 
+    b = [1,2,3]
+    print(b)
+    print(b[2])
+    
+    # output 
+    # [1,2,3]
+    # 3
+ ```
+*cheat sheets*
+- b.append(11)
 
 ## 2. Modules
 
