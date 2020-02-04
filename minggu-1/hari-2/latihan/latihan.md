@@ -70,7 +70,6 @@ Beberapa jenis tipe data:
   #output 
   -1
   ```
->>>>>>> master
 
 ### Data Type Conversion
 - `type()` untuk mengetahui tipe data
