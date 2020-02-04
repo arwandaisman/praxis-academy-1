@@ -79,8 +79,8 @@ Beberapa jenis tipe data:
 
 ### Non-Primitive Data Structure
 __1. Array__
+
     ```
-    #A
     import array as arr #lakukan import array
     a = arr.array("I",[1,2,3])
     print(a)
@@ -90,15 +90,17 @@ __1. Array__
     ```
 
 __2. List__
-```
-    b = [1,2,3]
-    print(b)
-    print(b[2])
-    
-    # output 
-    # [1,2,3]
-    # 3
- ```
+
+    ```
+        b = [1,2,3]
+        print(b)
+        print(b[2])
+
+        # output 
+        # [1,2,3]
+        # 3
+     ```
+ 
   *cheat sheets*
   - mengubah isi list
     ```
@@ -168,6 +170,50 @@ Kenapa masih membtuhkan array padahal list sangat mudah digunakan? Perlunya meng
      [1. 1. 1. 1]]
   # multi dimensi array
   ```
+  
+__3. Stack-List__
+  - menambah stack
+  ```
+  stack = [1,2,3,4,5]
+  print(stack.append(6))
+  # [1,2,3,4,5,6]
+  ```
+  - menghapus sesuai index, jika `pop()` tanpa parameter, maka akan menghapus list paling terakhir
+  ```
+  stack.pop(3) 
+  # [1,2,3,5,6]
+  ```
+  - menghitung banyak list yang dicari
+  ```
+  stack = [1,2,3,3,4,5,3]
+  stack.count(3)
+  
+  # 3
+  ```
+  - indexing `index(list_yang_dicari, index_mulai)`
+  ```
+  stack.index(3,4)
+  
+  # 6
+  ```
+
+  - reverse list & sort
+  ```
+  stack.reverse()
+  stack.sort()
+  
+  #[3,5,4,3,3,2,1]
+  #[1,2,3,3,3,4,5]
+  ```
+  
+  - menghapus list
+  ```
+  del stack[0]
+  #[2,3,3,3,4,5]
+  
+  del stack # untuk menghapus semua list
+  ```
+  
 ## 2. Modules
 
 ## 3. I/O
