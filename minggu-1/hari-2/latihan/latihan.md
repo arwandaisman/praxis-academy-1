@@ -13,15 +13,11 @@ Beberapa jenis tipe data:
 - Primitive: integers; float; string; boolean
 - Non-Primitive: arrays; list; tuples; dictionary; sets; files
 
-<<<<<<< HEAD
 ### Beberapa cheat Sheets
 - + untuk menggabungkan string `x + y`a
 - * untuk mengulangi string `x * 2`
 - pemotongan string juga bisa dilakukan dengan cara `x[2:]` memotong dengan range `x[0]` memotong dengan mengambil index
 
-
-list.append(x) 
-=======
 ### Pengolahan Data Primitive
 - `+` untuk menggabungkan string `x + y`
   ```
@@ -225,6 +221,32 @@ __3. Stack-List__
   ```
   
 ## 2. Modules
+Modul adalah sebuah kumpulan fungsi-fungsi yang dapat dipanggil dan dijadikan sebagai pendukung sistem.
+Menggunakan modul sangat mudah, dengan catatan package modul sudah terinstal dahulu. Pemanggilan modul dengan cara menambahakan sintak dibawah pada main program. 
+
+```
+# A
+import <nama modul>
+import sort
+
+# B
+from sort import bubble_sort
+# sintak diatas digunakan ketika hendak hanya melaukan import terhadap salah satu module
+
+# C
+import sort as urut
+# atau menjadikannya alias
+# jika module berada dalam sub folder tambahkan titik(.) untuk memisahkan direktorinya
+
+import util.sort
+```
+
+pemanggilan fungsi dalam modul dengan cara menambahkan sintak dibawah pada main program
+```
+<nama modul>.<nama fungsi>()
+sort.bubble_sort(lst)
+```
+Modul-modul yang sederhana maupun yang kompleks juga bisa dibuat sendiri oleh programmer.
 
 
 ## 3. I/O
