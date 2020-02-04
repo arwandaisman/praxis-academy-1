@@ -78,7 +78,7 @@ Beberapa jenis tipe data:
 -  untuk mengubah tipe data gunakan fungsi `int(), float(), & str()`
 
 ### Non-Primitive Data Structure
-1. Array
+__1. Array__
     ```
     #A
     import array as arr #lakukan import array
@@ -87,8 +87,9 @@ Beberapa jenis tipe data:
     
     # output 
     # array("I",[1,2,3])
+    ```
 
-2. List 
+__2. List__
 ```
     b = [1,2,3]
     print(b)
@@ -98,9 +99,75 @@ Beberapa jenis tipe data:
     # [1,2,3]
     # 3
  ```
-*cheat sheets*
-- b.append(11)
+  *cheat sheets*
+  - mengubah isi list
+    ```
+    b[1]=10
+    print(b)
 
+    # output
+    # [1,10,3]
+    ```
+  - menambah isi list, default dari belakang
+    ```
+    b.append(12)
+
+    # output
+    # [1,10,3,12]
+    ```
+  - menyisipkan list dengan index `insert(index, value)`
+    ```
+    b.insert(2,50)
+
+    # output
+    # [1,10,50,3,12]
+    ```
+  - menghapus list, jika ada list yang sama, maka index pertama yang akan terhapus
+    ```
+    b.remove(12)
+    
+    # output
+    # [1,10,50,3]
+    ```
+  - menghapus dengan menggunakan index 
+    ```
+    b.pop(-2)
+    
+    # output
+    # 50
+    # [1,10,3]
+    ```
+  - mengurutkan list (asc) dan reverse
+    ```
+    b.sort()
+    print(b)
+    b.reverse()
+    print(b)
+    b.reverse()
+    
+    # output
+    # [1,3,10]
+    # [10,3,1]
+    
+### Array vs List
+Kenapa masih membtuhkan array padahal list sangat mudah digunakan? Perlunya menggunakan array untuk pengolahan data yang bertipe data sama, yang nantinya memudahkan si programmer untuk mengolah data. berikut contoh kode yang tidak bisa dijalankan oleh list
+
+  ```
+  import numoy as np
+  a=np.array([2,4,6,8])
+  print(a/2)
+  
+  # output
+  # [1. 2. 3. 4]
+  
+  print(np.ones((3,4)))
+  
+  # output 
+  # [[1. 1. 1. 1]
+     [1. 1. 1. 1]
+     [1. 1. 1. 1]]
+  # multi dimensi array
+  ```
 ## 2. Modules
 
 ## 3. I/O
