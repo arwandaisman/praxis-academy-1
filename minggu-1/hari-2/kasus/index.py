@@ -23,21 +23,3 @@ elif arg == 5:
     sort.selection_sort(lst)
 else:
     print("Pilihan Tidak ada")
-
-print("1. Ascending \n2. Descending")
-pengurutan = int(input("Pengurutan: \t"))
-if pengurutan == 1:
-    sort.mode.bubble_sort(lst)
-
-
-if arg == 1:
-    sort.bubble_sort(lst)
-elif arg == 2:
-    sort.insertion_sort(lst)
-elif arg == 3:
-    sort.merge_sort(lst)
-elif arg == 4:
-    sort.quick_sort(lst)
-elif arg == 5:
-    sort.selection_sort(lst)
-else:
