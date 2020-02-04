@@ -14,9 +14,14 @@ Beberapa jenis tipe data:
 - Non-Primitive: arrays; list; tuples; dictionary; sets; files
 
 ### Beberapa cheat Sheets
-- + untuk menggabungkan string `x + y`
-- * untuk mengulangi string `x * 2`
+- `+` untuk menggabungkan string `x + y`
+- `*` untuk mengulangi string `x * 2`
 - pemotongan string juga bisa dilakukan dengan cara `x[2:]` memotong dengan range `x[0]` memotong dengan mengambil index
+- membuat huruf kapital awal `x.capitalize('aaa') => Aaa`
+- mengecek panjang isi variabel `len(x)`
+- mengecek apakah variabel tersebut menyimpan digit atau tidak `x.isdigit()`
+- replace string dengan cara `x.replace('Aaa', y)` output `Yyy`
+- 
 
 list.append(x) 
 
