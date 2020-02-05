@@ -88,6 +88,5 @@ Collaborators :
 </table>
 
 
-## 2. OOP
+## 2. Class & OOP
 
-## 3. Class
