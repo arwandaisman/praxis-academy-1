@@ -37,6 +37,8 @@ _Analogy_
 
 ```
   3. The `__init__` method 
+  `__init__` method adalah method yang akan dieksekusi paling awal ketika method lain akan dieksekusi. Seperti inisialisai nama dan umur dibawah ini
+  
       ```
       class Person:
         def __init__(self, name, age):
@@ -53,9 +55,8 @@ _Analogy_
       # Hello, my name is Kadek. My age is 12
       ```
   
-  4. Class and Object Variables
-  
-  5. Inheritance
+  4. Inheritance 
+  Pewarisan sifat
 
 ## 2. CRC Card
 Adalah sebuah kumpulan _tugas_ yang akan dikerjakan oleh _class_, dan juga terlihat _class_ tersebut berelasi dengan _class_ lain.
@@ -79,4 +80,6 @@ dia lakukan. Jika tugas dari aktor-aktor sudah dibuat, relasikan aktor tersebut 
 
 
 ## 3. Python Standar Library
-
+Pyhton sudah menyediakan beberapa library untuk mempermudah programmer dalam membuat sistem.
+![stdlib](https://docs.python.org/3/tutorial/stdlib.html)
+![stdlib2](https://docs.python.org/3/tutorial/stdlib2.html)
