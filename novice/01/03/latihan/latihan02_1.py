@@ -9,3 +9,4 @@ class Person:
 p = Person('Kadek', 12)
 p.say_hi()
 
+# Hello, my name is, Kadek. My age is 12

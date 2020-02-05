@@ -54,3 +54,27 @@ siswa.createTask()
 Bootcamp.how_many_task()
 
 print("\nGood bye. . .")
+
+# Output
+# Selamat Datang di Bootcamp
+
+# introduction . . .
+# Halo, saya Kadek, dan saya adalah Siswa
+# Mencari assesment. . .
+# Belum ada assesment!
+#
+# Break. . .
+#
+# introduction . . .
+# Halo, saya Cahya, dan saya adalah Mentor
+# Assesment dibuat!
+# Ada 1 assesment yang belum selesai
+#
+# Break. . .
+#
+# Mencari assesment. . .
+# Kadek sedang membut tugas.
+# Sisa assesment 0
+# Ada 1 assesment yang sudah selesai
+#
+# Good bye. . .

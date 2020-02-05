@@ -40,6 +40,17 @@ members = [t, s]
 for member in members:
     member.tell()
 
+
+# Output
+# (Initialized SchoolMember: Swaroop)
+# (Initialized Student: Swaroop)
+# (Initialized SchoolMember: Mrs. Shrividya)
+# (Initialized Teacher: Mrs. Shrividya)
+#
+# Name:"Mrs. Shrividya" Age:"40" Salary: "30000"
+# Name:"Swaroop" Age:"25" Marks: "75"
+
+
 # alur program
 # 1. Class Student() dipanggil
 # 2. Class SchoolMember dipanggil dari Class Student() 
@@ -51,3 +62,4 @@ for member in members:
 # 5. Objek __init__ berisikan method untuk memanggil Class SchoolMember untuk menyimpan nilai Mark
 #    dan memberikan Output "Initialized Student . . ."
 # 6. Selanjutnya diilakukannya perulangan untuk memanggil masing-masing atribut
+
