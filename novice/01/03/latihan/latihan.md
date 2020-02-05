@@ -42,15 +42,15 @@ Collaborators :
     <td colspan="2">Student</td>
   </tr>
   <tr>
-    <td> - createTask
-    - readTask
-    - deleteTask
-    - updateTask
-    - pullTask
-    - pushTask
-    - attendClass </td>
-    <td> - Mentor
-    - Attentdant</td>
+    <td> -createTask
+    -readTask
+    -deleteTask
+    -updateTask
+    -pullTask
+    -pushTask
+    -attendClass </td>
+    <td> -Mentor
+    -Attentdant</td>
   </tr>
 </table>
 
@@ -59,12 +59,14 @@ Collaborators :
     <td colspan="2">Mentor</td>
   </tr>
   <tr>
-    <td> - createAssesment
-    - deleteAssesment
-    - updateAssesment
-    - pushAssesment
-    - readTask
-    - attendClass</td>
+    <td> 
+      - createAssesment
+      - deleteAssesment
+      - updateAssesment
+      - pushAssesment
+      - readTask
+      - attendClass
+    </td>
     <td> - Headmaster
     - Attentdant</td>
   </tr>
@@ -75,13 +77,13 @@ Collaborators :
     <td colspan="2">Headmaster</td>
   </tr>
   <tr>
-    <td> - createCurriculum
-    - readCurriculum
-    - deleteCurriculum
-    - updateCurriculum
-    - readAttendant</td>
+    <td> -createCurriculum
+    -readCurriculum
+    -deleteCurriculum
+    -updateCurriculum
+    -readAttendant</td>
     <td>
-    - Attentdant</td>
+    -Attentdant</td>
   </tr>
 </table>
 
