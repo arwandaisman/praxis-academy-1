@@ -1,7 +1,11 @@
 class Person:
-   def say_hi(self):
-      print('Hello, how are you?')
+  def __init__(self, name, age):
+      self.name = name
+      self.age = age
 
-p = Person()
+  def say_hi(self):
+      print('Hello, my name is', self.name, '. My age is', self.age)
+
+p = Person('Kadek', 12)
 p.say_hi()
 
