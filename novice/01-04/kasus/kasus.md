@@ -21,9 +21,28 @@ Class :
        ```
        -checkBalance()
            -getBalance()
+           
        -withdrawMoney()
-           -Balance inquiry == 0
-               unable
+       if Balance == 0
+              unable to Withdraw
+       elif Balance <=500
+              uang ga cukup untuk ditarik 
+       elif Withdraw > Balance 
+              penarikan melebihi saldo
+       else Balance = Balance - Withdraw #saldo dikurangi
+              penarikan berhasil sebanyak Withdraw
+              
+       -depositMoney()
+              kamu deposit sebanyak . . .
+              
+        1. Deposit
+        2. Withdraw
+        3. Balance Inquiry
+        4. Exit
+        >4. Try another transaction
+              1. yes; 2. no
+        
+        input selain angka masukkan exception handling untuk menanganinya
        ```
        
 
