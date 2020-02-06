@@ -1,12 +1,10 @@
 Algoritma Program
 Class : 
 1. Deposit Class : menyetor uang (nabung)
-
        ```
        -setDeposit => memberikan value berapa banyak nabung
        -getDeposti => mengambil value berapa banyak nabung
        ```
-       
  2. Withdraw Class : menarik uang
        ```
        -setWithdraw => memberikan value berapa banyak narik
