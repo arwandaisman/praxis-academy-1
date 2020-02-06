@@ -21,3 +21,8 @@ isis = Cat('Isis')
 print(fido.speak())
 print(isis.speak())
 
+
+# Output
+#
+# Fido says Woof!
+# Isis says Meow!

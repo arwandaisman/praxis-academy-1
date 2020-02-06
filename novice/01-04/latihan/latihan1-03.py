@@ -14,7 +14,6 @@ class Gasoline(Car):
     def refuel(self):
         self.tank = self.tank_cap
         
-    
 class Electric(Car):
     def __init__(self,engine='Electric',kWh_cap=60):
         Car.__init__(self)
@@ -25,3 +24,26 @@ class Electric(Car):
     def recharge(self):
         self.kWh = self.kWh_cap
 
+class Hybrid(Gasoline, Electric):
+    def __init__(self,engine='Hybrid',tank_cap=11,kWh_cap=5):
+        Gasoline.__init__(self,engine,tank_cap)
+        Electric.__init__(self,engine,kWh_cap)
+        
+        
+prius = Hybrid()
+#1
+#print(prius.tank)
+#print(prius.kWh)
+
+#2
+prius.recharge()
+print(prius.kWh)
+
+# Output : 1
+# 
+# 0
+# 0
+#
+# Output : 2
+#
+# 5

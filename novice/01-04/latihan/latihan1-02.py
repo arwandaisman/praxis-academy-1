@@ -13,3 +13,9 @@ yogi = Bear('Yogi')
 print(yogi.name)
 print(yogi.legs)
 print(yogi.hibernate)
+
+# Output
+# 
+# Yogi
+# 4
+# yes
