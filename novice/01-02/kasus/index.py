@@ -1,7 +1,7 @@
 import sort
 
 lst = []
-size = int(input("Masukan panjang list: \t"))
+size = int(input("Masukan panjang list: \t")) 
 
 for i in range(size):
     elements = int(input("Masukkan nilai: \t"))

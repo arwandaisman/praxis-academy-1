@@ -1,6 +1,6 @@
 # Multiple Inheritance
 class Car:
-    def __init__(self,wheels=4):
+    def __init__(self,wheels=4): 
         self.wheels = wheels
         # We'll say that all cars, no matter their engine, have four wheels by default.
 
