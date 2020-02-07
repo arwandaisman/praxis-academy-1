@@ -1,37 +1,38 @@
 class Deposit:
     def setDeposit(self,deposit):
         self.deposit=deposit
-        print("Deposit anda \t{}".format(self.deposit))
 
     def getDeposit():
-        pass
+        return deposit
 
 class Withdraw:
-    def setWithdraw():
-        pass
+    def setWithdraw(self,withdraw):
+        self.withdraw=withdraw
     def getWithdraw():
-        pass
+        return withdraw
 
 class BalanceInquiry:
-    def setBalanceInquiry():
-        pass
-    def getBalanceInquiry():
-        pass
+    def setBalanceInquiry(self,balance):
+        self.balance=balance
+    def getBalanceInquiry(balance):
+        return balance
 
 class Exit:
     def exitMachine(self):
         print("Thank for using Simple ATM")
+        exit()
         
+print(BalanceInquiry().setBalanceInquiry(10))
+print(BalanceInquiry().getBalanceInquiry())
 
-class Index:
-    def depositMoney():
-        print()
-        deposit=int(input("Masukan Jumlah Uang\t"))
-        Deposit().setDeposit(deposit)
-        otherSelection()
-
+class Index(BalanceInquiry, Deposit):
     def otherSelection():
-        print("Other selection")
+        print("Try Another Transaction?")
+        select=int(input("Press [1] Yes \t Press [2] No\t"))
+        if select == 2:
+            Exit().exitMachine()
+        elif select == 1:
+            print()
 
     print("Welcome to simple ATM")
     loop = 1
@@ -42,19 +43,23 @@ class Index:
         print("Press [3] Balance Inquiry")
         print("Press [4] Exit")
         select=int(input("What would you like to do?\t"))
+
         if select == 1:
-            loop = 0
             print("Select 1")
-            depositMoney()
+            deposit = int(input("Input Balance of Money\t"))
+            print("Your Balance is {}".format(BalanceInquiry().getBalanceInquiry()))
+            print()
+            otherSelection()
 
         elif select == 2:
-            print("select 2")
+            print("Select 2")
             def withdrawMoney(Withdraw):
                 pass
         elif select == 3:
-            print("select 3")
-            def checkBalance(BalanceInquiry):
-                pass
+            print("Select 3")
+            print(BalanceInquiry().getBalanceInquiry())
+            print("Your Balance is {}".format(BalanceInquiry().getBalanceInquiry()))
+            otherSelection()
         elif select == 4:
             Exit().exitMachine()
             loop = 0
@@ -62,13 +67,10 @@ class Index:
             print("Try Another Selection?")
             select=int(input("Press [1] Yes \t Press [2] No\t"))
             if select == 2:
-                loop = 0
                 Exit().exitMachine()
+                loop = 0
             elif select == 1:
                 loop == 1
 
-
-    def __init__():
-        pass
-
-
+print("Halo")
+print(BalanceInquiry().getBalanceInquiry(10))
