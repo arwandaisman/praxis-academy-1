@@ -75,8 +75,12 @@ class Index:
         print("Press [2] Withdraw")
         print("Press [3] Balance Inquiry")
         print("Press [4] Exit")
-        select=int(input("What would you like to do?\t"))
-
+        while True:
+            try:
+                select=int(input("What would you like to do?\t"))
+                break
+            except ValueError:
+                print("Please input number of selection!")
         if select == 1:
 
             print("Select 1")
