@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <pople>
+        <name>Scott</name>
+        <website>stackabuse.com</website>
+        <from>Nebraska</from>
+    </people>
+    <pople>
+        <name>Larry</name>
+        <website>google.com</website>
+        <from>Michigan</from>
+    </people>
+    <pople>
+        <name>Tim</name>
+        <website>apple.com</website>
+        <from>Alabama</from>
+    </people>
+</root>
