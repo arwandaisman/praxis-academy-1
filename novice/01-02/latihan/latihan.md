@@ -251,3 +251,13 @@ Modul-modul yang sederhana maupun yang kompleks juga bisa dibuat sendiri oleh pr
 ## 3. I/O
 
 ## 4. Errors and Exception
+Error and Exception adalh sebuah cara bagaimana pesan error dalam program disampaikan secara informatif terhadap pengguna. Error tersebut bisa diatasi dan bisa saja disembunyikan. Contohnya jika program membutuhkan input angka namun user melakukan input berupa huruf maka Handling Exception akan bekerja disitu
+
+  ```
+  while True:
+      try:
+          size = int(input("Masukan panjang list: \t")) 
+          break
+      except ValueError:
+          print("Masukkan angka Bos!")
+  ```
