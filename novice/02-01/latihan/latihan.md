@@ -26,3 +26,8 @@ Adalah pemrograman yang berbasis fungsi
     # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
     
 
+# Lambda
+Lambda adalah fungsi anonymous, lambda dapat mengambil banyak argument, tapi hanya memiliki 1 ekspresi, dalam artian sederhana lambda mampu menerima banyak input namun hanya mampu memberikan 1 output
+
+x = lambda a : a + 10
+print(x(5)) 
