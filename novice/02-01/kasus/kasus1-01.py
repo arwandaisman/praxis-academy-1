@@ -16,6 +16,12 @@ def square(a):
 b = square(2)
 print(b)
 
+def square(a):
+    return lambda x: x * a
+
+mult6 = square(2)
+print(mult6(32))
+
 #4------------------------------------------------------
 print()
 def formal():
@@ -54,6 +60,9 @@ list1=np.array([1993,1940,1980,1998,1995])
 ages=2020-list1
 print(ages)
 
+result=list(filter(lambda x: (x % 2 == 0), list1))
+print(result)
+
 #7------------------------------------------------------
 print()
 data = {"people": [
@@ -64,6 +73,7 @@ data = {"people": [
 
 for p in data['people']:
     print('age: ' + p['age'])
+
 
 #8------------------------------------------------------
 print()
