@@ -160,7 +160,7 @@ __2. List__
 Kenapa masih membtuhkan array padahal list sangat mudah digunakan? Perlunya menggunakan array untuk pengolahan data yang bertipe data sama, yang nantinya memudahkan si programmer untuk mengolah data. berikut contoh kode yang tidak bisa dijalankan oleh list
 
   ```
-  import numoy as np
+  import numpy as np
   a=np.array([2,4,6,8])
   print(a/2)
   
