@@ -1,0 +1,31 @@
+$ py.test
+
+===================== test session starts =====================
+platform linux -- Python 3.6.9, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
+rootdir: /home/dxc/Documents/Github/praxis-academy/novice/02-02/latihan
+collected 5 items                                             
+
+test_sum.py .                                           [ 20%]
+test_sum_2.py .F                                        [ 60%]
+test_sum_unittest.py .F                                 [100%]
+
+========================== FAILURES ===========================
+_______________________ test_sum_tuple ________________________
+
+    def test_sum_tuple():
+>       assert sum((1, 2, 2)) == 6, "Should be 6"
+E       AssertionError: Should be 6
+E       assert 5 == 6
+E        +  where 5 = sum((1, 2, 2))
+
+test_sum_2.py:5: AssertionError
+___________________ TestSum.test_sum_tuple ____________________
+
+self = <test_sum_unittest.TestSum testMethod=test_sum_tuple>
+
+    def test_sum_tuple(self):
+>       self.assertEqual(sum((1, 2, 2)), 6, "Should be 6")
+E       AssertionError: 5 != 6 : Should be 6
+
+test_sum_unittest.py:9: AssertionError
+================= 2 failed, 3 passed in 0.23s =================
