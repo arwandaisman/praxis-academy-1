@@ -33,24 +33,24 @@ class Bootcamp:
     def how_many_task(cls):
         print("Ada {:d} assesment yang sudah selesai".format(cls.task))
 
-print("Selamat Datang di Bootcamp")
-siswa = Bootcamp("Kadek", "Siswa")
+# print("Selamat Datang di Bootcamp")
+# siswa = Bootcamp("Kadek", "Siswa")
 
-print("\nintroduction . . .")
-siswa.say_hi_student()
-siswa.createTask()
+# print("\nintroduction . . .")
+# siswa.say_hi_student()
+# siswa.createTask()
 
-print("\nBreak. . .")
+# print("\nBreak. . .")
 
-print("\nintroduction . . .")
-mentor = Bootcamp("Cahya", "Mentor")
-mentor.say_hi_mentor()
-mentor.createAssesment()
-Bootcamp.how_many_assesment()
+# print("\nintroduction . . .")
+# mentor = Bootcamp("Cahya", "Mentor")
+# mentor.say_hi_mentor()
+# mentor.createAssesment()
+# Bootcamp.how_many_assesment()
 
-print("\nBreak. . .\n")
+# print("\nBreak. . .\n")
 
-siswa.createTask()
-Bootcamp.how_many_task()
+# siswa.createTask()
+# Bootcamp.how_many_task()
 
-print("\nGood bye. . .")
+# print("\nGood bye. . .")

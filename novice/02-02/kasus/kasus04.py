@@ -22,5 +22,5 @@ dolly = pickle.loads(my_pickled_mary)
 # there are no conseguencies for Mary
 dolly.color = "black"
 
-print (str.format("Dolly is {0} ", dolly.color))
-print (str.format("Mary is {0} ", mary.color))
+# print (str.format("Dolly is {0} ", dolly.color))
+# print (str.format("Mary is {0} ", mary.color))
