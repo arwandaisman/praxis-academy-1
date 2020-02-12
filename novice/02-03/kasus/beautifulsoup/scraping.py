@@ -1,0 +1,17 @@
+import requests
+from bs4 import BeautifulSoup
+
+def getUrl(url):
+
+    page = requests.get(url)
+    soup = BeautifulSoup(page.text, 'html.parser')
+
+    artist_name_list = soup.find(class_='BodyText')
+    artist_name_list_items = artist_name_list.find_all('a')
+
+    for artist_name in artist_name_list_items:
+        print(artist_name.prettify())
+
+if __name__ == "__main__":
+    import sys
+    getUrl(str(sys.argv[1]))
