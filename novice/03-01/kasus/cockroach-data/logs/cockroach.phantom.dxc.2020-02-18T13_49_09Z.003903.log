@@ -1,0 +1,34 @@
+I200218 13:49:09.740990 1 util/log/clog.go:1196  [config] file created at: 2020/02/18 13:49:09
+I200218 13:49:09.740990 1 util/log/clog.go:1196  [config] running on machine: phantom
+I200218 13:49:09.740990 1 util/log/clog.go:1196  [config] binary: CockroachDB CCL v19.2.4 (x86_64-unknown-linux-gnu, built 2020/02/06 21:55:19, go1.12.12)
+I200218 13:49:09.740990 1 util/log/clog.go:1196  [config] arguments: [cockroach start]
+I200218 13:49:09.740990 1 util/log/clog.go:1196  line format: [IWEF]yymmdd hh:mm:ss.uuuuuu goid file:line msg utf8=✓
+I200218 13:49:09.740977 1 cli/start.go:1144  logging to directory /home/dxc/Documents/Github/praxis-academy/novice/03-02/kasus/cockroach-data/logs
+I200218 13:49:09.748833 1 server/status/recorder.go:597  available memory from cgroups (8.0 EiB) is unsupported, using system memory 7.6 GiB instead: 
+W200218 13:49:09.758180 1 cli/start.go:1052  Using the default setting for --cache (128 MiB).
+  A significantly larger value is usually needed for good performance.
+  If you have a dedicated server a reasonable setting is --cache=.25 (1.9 GiB).
+I200218 13:49:09.758692 1 server/status/recorder.go:597  available memory from cgroups (8.0 EiB) is unsupported, using system memory 7.6 GiB instead: 
+W200218 13:49:09.758736 1 cli/start.go:1065  Using the default setting for --max-sql-memory (128 MiB).
+  A significantly larger value is usually needed in production.
+  If you have a dedicated server a reasonable setting is --max-sql-memory=.25 (1.9 GiB).
+I200218 13:49:09.759161 1 server/status/recorder.go:597  available memory from cgroups (8.0 EiB) is unsupported, using system memory 7.6 GiB instead: 
+I200218 13:49:09.759197 1 cli/start.go:1196  CockroachDB CCL v19.2.4 (x86_64-unknown-linux-gnu, built 2020/02/06 21:55:19, go1.12.12)
+W200218 13:49:09.859632 1 cli/start.go:511  running 'cockroach start' without --join is deprecated.
+Consider using 'cockroach start-single-node' or 'cockroach init' instead.
+I200218 13:49:09.867780 1 server/status/recorder.go:597  available memory from cgroups (8.0 EiB) is unsupported, using system memory 7.6 GiB instead: 
+I200218 13:49:09.867791 1 server/config.go:394  system total memory: 7.6 GiB
+I200218 13:49:09.867844 1 server/config.go:396  server configuration:
+max offset             500000000
+cache size             128 MiB
+SQL memory pool size   128 MiB
+scan interval          10m0s
+scan min idle time     10ms
+scan max idle time     1s
+event log enabled      true
+I200218 13:49:09.867859 1 cli/start.go:1037  process identity: uid 1000 euid 1000 gid 1000 egid 1000
+I200218 13:49:09.867887 1 cli/start.go:644  starting cockroach node
+E200218 13:49:10.049174 1 cli/error.go:233  cannot load certificates.
+Check your certificate settings, set --certs-dir, or use --insecure for insecure clusters.
+
+failed to start server: problem with CA certificate: not found
