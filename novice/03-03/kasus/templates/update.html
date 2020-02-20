@@ -8,6 +8,7 @@
 
 <form action="/actupdate" method="POST">
   {% for i in data %}
+  <input type="hidden" name="id" class="form-control" value="{{i[0]}}">
     <div class="form-group">
         <label for="">New Name</label>
         <input type="text" name="name" class="form-control" value="{{i[1]}}">

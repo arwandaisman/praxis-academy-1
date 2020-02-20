@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request, url_for
-from markupsafe import escape
 import mysql.connector as mariadb
+from werkzeug.urls import url_parse
 app = Flask(__name__)
 
-@app.route("/", methods=['POST', 'GET'])
+@app.route("/")
 def home():
 
     conn = mariadb.connect(
@@ -30,8 +30,9 @@ def insert():
         'insert.html', my_string="Let's insert some data!",
         title="Insert")
 
-@app.route("/update/<int:idmember>")
-def update(idmember):
+
+@app.route('/update/<int:id>')
+def update(id):
     conn = mariadb.connect(
         host="localhost",
         user="root",
@@ -40,21 +41,22 @@ def update(idmember):
     )
 
     cur = conn.cursor()
-    sql = "Select * from members where member_id='{}'".format(idmember)
+    sql = "Select * from members where member_id='{}'".format(id)
     cur.execute(sql)
     results = cur.fetchall()
     data=[]
     for i in results:
         data.append(i)
-    return 'asd %d' % idmember
     return render_template(
-        'update.html', my_string="You can also update your data directly.", title=a, data=data)
+        'update.html', my_string="You can also update your data directly.",
+        title="Update",data=data)
 
 
-@app.route("/actupdate", methods=['GET', 'POST'])
+@app.route("/actupdate", methods=['POST'])
 def actupdate():
     if (request.method == 'POST'):
         try:
+            id=request.form['id']
             name=request.form['name']
             address=request.form['address']
             conn = mariadb.connect(
@@ -65,16 +67,16 @@ def actupdate():
             )
 
             cur = conn.cursor()
-            sql = "UPDATE members set name='{}', address='{}' where member_id=1".format(name,address)
+            sql = "UPDATE members set name='{}', address='{}' where member_id='{}'".format(name,address,id)
             cur.execute(sql)
             conn.commit()
             return render_template(
-                'msg.html', my_string="Data Has Been Stored.", title="Insert")
+                'msg.html', my_string="Data Has Been Updated.", title="Update")
         except:
             return render_template(
-                'msg.html', my_string="Databases Connection Error!", title="Insert")
+                'msg.html', my_string="Databases Connection Error!", title="Update")
 
-@app.route("/act", methods=['GET', 'POST'])
+@app.route("/act", methods=['POST'])
 def act():
     if (request.method == 'POST'):
         try:
