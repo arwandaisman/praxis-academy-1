@@ -1,6 +1,8 @@
-from flask import Flask, render_template, request, url_for
+from flask import Flask, render_template, request, url_for, g
 import mysql.connector as mariadb
 from werkzeug.urls import url_parse
+import time
+
 app = Flask(__name__)
 
 @app.errorhandler(404) 
@@ -8,19 +10,30 @@ def not_found(e):
   return render_template("404.html", my_string="Ooppss! Page not found!", title="404"),404
 
 
+@app.before_request
+def before_request():
+    g.start = time.time()
 
-@app.route("/")
-def home():
 
+def after_request():
+    diff = time.time() - g.start
+    return diff
+
+def connect():
     conn = mariadb.connect(
         host="localhost",
         user="root",
         passwd="123",
         database='rental'
     )
+    return conn
+    
 
+@app.route("/")
+def home():
+
+    conn = connect()
     cur = conn.cursor()
-
     sql = "SELECT * FROM members"
     cur.execute(sql)
     results = cur.fetchall()
@@ -28,7 +41,7 @@ def home():
     for i in results:
         data.append(i)
     return render_template(
-        'home.html', my_string="Welcome home!", title="Home", data=data)
+        'home.html', my_string="Welcome home!", title="Home", data=data, time=after_request())
 
 @app.route("/insert")
 def insert():
@@ -39,13 +52,8 @@ def insert():
 
 @app.route('/update/<int:id>')
 def update(id):
-    conn = mariadb.connect(
-        host="localhost",
-        user="root",
-        passwd="123",
-        database='rental'
-    )
 
+    conn = connect()
     cur = conn.cursor()
     sql = "Select * from members where member_id='{}'".format(id)
     cur.execute(sql)
@@ -65,12 +73,7 @@ def actupdate():
             id=request.form['id']
             name=request.form['name']
             address=request.form['address']
-            conn = mariadb.connect(
-                host="localhost",
-                user="root",
-                passwd="123",
-                database='rental'
-            )
+            conn = connect()
 
             cur = conn.cursor()
             sql = "UPDATE members set name='{}', address='{}' where member_id='{}'".format(name,address,id)
@@ -88,13 +91,7 @@ def act():
         try:
             name=request.form['name']
             address=request.form['address']
-            conn = mariadb.connect(
-                host="localhost",
-                user="root",
-                passwd="123",
-                database='rental'
-            )
-
+            conn = connect()
             cur = conn.cursor()
             sql = "INSERT INTO members(name,address) VALUES ('{}','{}')".format(name,address)
             cur.execute(sql)
