@@ -4,6 +4,15 @@ from flask import request
 from flask import render_template
 app = Flask(__name__)
 
+
+@app.errorhandler(404) 
+  
+# inbuilt function which takes error as parameter 
+def not_found(e): 
+  
+# defining function 
+  return render_template("404.html") 
+
 @app.route('/')
 def index():
     return 'Index Page'
