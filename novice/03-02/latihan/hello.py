@@ -68,6 +68,15 @@ with app.test_request_context('/hello', method='POST'):
     assert request.path == '/hello'
     assert request.method == 'POST'
 
+# from flask import flash
+# from flask_dance.consumer import oauth_authorized
+
+# @oauth_authorized.connect
+# def logged_in(blueprint, token):
+#     flash("Signed in successfully with {name}!".format(
+#         name=blueprint.name.capitalize()
+#     ))
+
 
 # lsof -i:8080
 # kill -9 pid

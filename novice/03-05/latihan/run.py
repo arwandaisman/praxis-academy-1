@@ -7,6 +7,8 @@ app = Flask(__name__)
 def not_found(e): 
   return render_template("404.html", my_string="Ooppss! Page not found!", title="404"),404
 
+
+
 @app.route("/")
 def home():
 
