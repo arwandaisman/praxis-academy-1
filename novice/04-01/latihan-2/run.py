@@ -105,5 +105,30 @@ def act():
             return render_template(
                 'msg.html', my_string="Databases Connection Error!", title="Insert")
 
+
+
+class ShowUsers(View):
+    def dispatch_request(self):
+        # users = User.query.all()
+        return render_template('home.html', my_string="Hallo", content="Pluggable Views")
+
+app.add_url_rule('/test/', view_func=ShowUsers.as_view('show_users'))
+
+class Index(View):
+    def dispatch_request(self):
+
+        conn = connect()
+        cur = conn.cursor()
+        sql = "SELECT * FROM members"
+        cur.execute(sql)
+        results = cur.fetchall()
+        data=[]
+        for i in results:
+            data.append(i)
+        return render_template(
+            'home.html', my_string="Welcome home!", title="Home", data=data, time=after_request())
+
+app.add_url_rule('/testhome/', view_func=Index.as_view('show_home'))
+
 if __name__ == '__main__':
     app.run(debug=True)
