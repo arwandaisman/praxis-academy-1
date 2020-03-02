@@ -17,4 +17,4 @@ class Animal(MethodView):
     def delete(self):
         return 'Deleted an animal!'
 
-. env
+app.add_url_rule('/animal', view_func=Animal.as_view('animal'))
